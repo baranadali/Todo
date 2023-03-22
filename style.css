@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Rubik", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.base {
+  max-width: 32%;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20%;
+}
+
+.title .title-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.title .title-section h3 {
+  font-size: 28px;
+}
+.title .title-section p {
+  font-size: 16px;
+  color: gray;
+}
+.title .title-section span {
+  color: rgb(189, 189, 189);
+}
+
+.app {
+  margin-top: 30px;
+}
+.app .app-input {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  height: 38px;
+  position: relative;
+}
+.app .app-input input {
+  width: 100%;
+  height: inherit;
+  background-color: transparent;
+  border: 1.5px solid #3b3b3b;
+  border-radius: 2px;
+  padding: 0px 12px;
+  outline: none;
+}
+.app .app-input button {
+  background-color: white;
+  color: black;
+  padding: 0 12px;
+  height: 100%;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.app .app-input a {
+  background-color: white;
+  height: inherit;
+  color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+  border-radius: 4px;
+}
+.app .app-input i {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  font-size: 22px;
+  display: none;
+}
+.app .app-todos .line {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: gray;
+}
+.app .app-todos .info {
+  margin-top: 72px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app .app-todos .info h3 {
+  font-size: 14px;
+}
+.app .app-todos .info a {
+  font-size: 14px;
+  color: gray;
+  transition: all 0.2s linear;
+}
+.app .app-todos .info a:hover {
+  color: white;
+}
+.app .app-todos .todos {
+  margin-top: 32px;
+}
+.app .app-todos .todos ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.app .app-todos .todos ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app .app-todos .todos ul li a {
+  color: gray;
+}
+.app .app-todos .todos ul li .item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.app .app-todos .todos ul li span {
+  display: block;
+  height: 6px;
+  width: 6px;
+  background-color: lightgreen;
+  border-radius: 50%;
+}
+
+.alert {
+  position: absolute;
+  right: 32px;
+  top: 48px;
+}
+.alert p {
+  padding: 8px 24px;
+  border-radius: 2px;
+  font-size: 14px;
+  margin-bottom: 4px;
+}/*# sourceMappingURL=style.css.map */
