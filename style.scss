@@ -159,3 +159,17 @@ body {
         margin-bottom: 4px;
     }
 }
+
+@media screen and (max-width:768px) {
+    .base {
+        max-width: 80%;
+        margin-top: 42px;
+    }
+    .alert {
+        top: 24px;
+        right: 24px;
+        p {
+            font-size: 12px;
+        }
+    }
+}
